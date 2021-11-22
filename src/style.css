@@ -1,0 +1,57 @@
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+  text-align: center;
+}
+#global {
+  height: 30rem;
+  margin-top: 3rem;
+}
+.card-global {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.today {
+  margin-top: 2rem;
+}
+.card-today {
+  background: #fffaef;
+}
+#temperature-description {
+  text-transform: capitalize;
+}
+#statistics {
+  border: none;
+}
+.icon-today {
+  color: #d9d9d9;
+  font-size: 67px;
+}
+.temp-today {
+  font-size: 32px;
+  font-weight: 700;
+}
+.temp-today a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.forecasts {
+  background: #fffaef;
+  transition: all 200ms ease-in-out;
+}
+.forecasts:hover {
+  background: white;
+  cursor: pointer;
+}
+.day {
+  font-weight: normal;
+}
+.lowest-temp {
+  font-weight: normal;
+}
